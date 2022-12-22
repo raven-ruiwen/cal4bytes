@@ -15,7 +15,7 @@ var config types.Config
 var done bool
 var result string
 
-const CMDCalculate4bytes = "cal4bytes"
+const CMDCalculate4bytes = "calc4bytes"
 
 func main() {
 	cmd := Cmd(CMDCalculate4bytes)

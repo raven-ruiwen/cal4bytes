@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"github.com/briandowns/spinner"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/judwhite/go-svc"
 	"time"
 )
 
@@ -35,9 +34,6 @@ func (p *Process) State() string {
 	return fmt.Sprintf(" " + p.Regular + fmt.Sprintf("[%d-%d]", p.StartIndex, p.EndIndex))
 }
 
-func (p *Process) Init(svc.Environment) error {
-	return nil
-}
 func (p *Process) Stop() error {
 	return nil
 }

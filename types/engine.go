@@ -1,7 +1,6 @@
 package types
 
 import (
-	"github.com/judwhite/go-svc"
 	"sync"
 )
 
@@ -27,9 +26,6 @@ func NewEngine(regular string, target string, num uint, workRange uint64) *Engin
 	}
 }
 
-func (e *Engine) Init(svc.Environment) error {
-	return nil
-}
 func (e *Engine) Stop() error {
 	return nil
 }

@@ -1,4 +1,4 @@
-module 4byte_calculator
+module calc4bytes
 
 go 1.19
 

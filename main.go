@@ -1,7 +1,7 @@
 package main
 
 import (
-	"4byte_calculator/types"
+	"calc4bytes/types"
 	"fmt"
 	"github.com/spf13/cobra"
 	"github.com/vbauerster/mpb/v8"

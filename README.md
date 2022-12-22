@@ -14,5 +14,5 @@ Flags:
 
 
 
-
-./calc4bytes --regular "buy_%d(bytes32,uint256)" --target "0x00000000" --thread 5 --thread.range 1000000000
+Example:  
+./calc4bytes --regular "buy_%d(bytes32,uint256)" --target "0x00000000" --thread 5 --thread.range 100000000

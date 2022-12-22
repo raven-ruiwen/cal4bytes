@@ -14,7 +14,7 @@ func (c *Config) Check() error {
 		return errors.New("regular cannot be null")
 	}
 	if c.Target == "" {
-		return errors.New("regular cannot be null")
+		return errors.New("target cannot be null")
 	}
 	return nil
 }
